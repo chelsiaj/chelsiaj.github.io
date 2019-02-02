@@ -1,0 +1,114 @@
+body {
+    background-color: whitesmoke
+}
+
+header {
+    margin: 10px auto;
+    background-color: #c4b69a;
+    box-shadow: 0 0 30px #777;
+    text-align: center;
+}
+header h1{
+    font-family: "Anton",sans-serif;
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #143441
+}
+header p{ font-family: "Thasadith",sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #143441
+
+}
+img, .headings {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 10px;
+}
+
+nav ul {
+list-style-type:none;
+}
+
+nav li{
+text-align: center;
+margin: 10px;
+margin-left: -30px;
+}
+.link1 {
+    color: goldenrod;
+    text-decoration: none;
+    font-family: "Thasadith", sans-serif;
+    background-color: #143441;
+}
+.link2 {
+    color: goldenrod;
+    text-decoration: none;
+    font-family: "Thasadith", sans-serif;
+    background-color: #48788b;
+    display: inline-block;
+    width: 100%;
+}
+
+main, footer {
+    text-align: center;
+    background-color: #c4b69a;
+    box-shadow: 0 0 30px #777;
+}
+article {
+    background-color: #143441
+}
+
+article p {
+    color: white;
+}
+main h1 {
+    font-family: "Anton",sans-serif;
+    font-size: 30px;
+    color: #143441;
+   margin: 0px;
+   background-color: #ebb11a;
+   
+}
+main h2 {
+    font-family: "Thasadith", sans-serif;
+    color: #143441;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+main p {
+    font-family: "Quattrocento", serif;
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+}
+
+footer ul {
+    list-style-type:none;
+    font-family: "Quattrocento", serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+footer h2 {
+    font-family: "Thasadith", sans-serif;
+    color: #143441;
+
+}
+footer p {
+    background-color: #ebb11a
+}
+
+
+
+
+
+
+
+
+font-family: "Anton",sans-serif;
+font-family: "Thasadith", sans-serif;
+font-family: "Quattrocento", serif;
