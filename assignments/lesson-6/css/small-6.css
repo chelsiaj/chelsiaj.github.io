@@ -1,0 +1,251 @@
+body {
+    background-color: whitesmoke
+}
+/* header logo top*/
+header {
+    margin: 10px auto;
+    background-color: #c4b69a;
+    box-shadow: 0 0 30px #777;
+    text-align: center;
+}
+header h1{
+    font-family: "Anton",sans-serif;
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #143441
+
+}
+header p{ font-family: "Thasadith",sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #143441
+
+}
+img, .headings {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 10px;
+}
+/* top navigation menu */
+nav .dropdown {	
+    margin: 0px;	
+    max-width: 760px;  
+    text-align: center;
+    padding-right: 90x;
+	}
+
+  .dropbtn {
+    background-color: #143441;
+    color: #ebb11a;
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: "Thasadith", sans-serif;
+    
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    margin: 0px;
+    background-color: #48788b;
+    min-width: 160px;
+    overflow: auto;
+    margin-right: 20px;
+    margin-left: 0px;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #ebb11a;
+   padding: 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #48788b;
+;}
+  
+  .show {display: block;}
+  
+ 
+    
+.link1 {
+    color: goldenrod;
+    text-decoration: none;
+    font-family: "Thasadith", sans-serif;
+    background-color: #143441;
+}
+.link2 {
+    color: goldenrod;
+    text-decoration: none;
+    font-family: "Thasadith", sans-serif;
+    background-color: #48788b;
+
+    display: inline-block;
+    
+}
+
+
+
+
+
+
+
+
+/* weather update */
+
+.weathersummary img {
+   
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+ 
+.weathertitle {
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.4em;
+   
+}
+
+
+ #todaysforecast {
+        margin-top: 0px;
+        padding-top: 0px;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: "Thasadith", sans-serif;
+        
+    }
+    .yellowtext {
+        color: #ebb11a
+    }
+
+ section {
+   position: absolute;
+   top: 540px;
+   left: 60px;
+    background-color: rgba(13, 31, 33, 0.7);
+    text-align: left;
+    width: 220px;
+    margin-bottom: 0px;
+    
+}
+
+section p {
+    margin: 25px;
+    color: white;
+    font-size: 20px;
+}
+@media only screen and (max-width: 750px) {
+    .hidden {
+    display: none;
+
+      
+    }
+  }
+
+  @media only screen and (min-width: 750px) {
+    #smallmenu {
+    display: none;
+
+      
+    }
+  }
+
+
+
+
+
+
+/* article */
+article {
+    background-color: #143441
+}
+article img {
+    width: 90%;
+    height: auto;
+    box-shadow: 0 0 30px #071318;
+    margin: 60px 10px 20px 25px;
+    box-align:center;
+    
+    
+}
+
+article p {
+    color: white;
+    padding: 0px 30px 10px 20px;
+    margin: 0px 30px 30px 30px;
+}
+ h1 {
+    font-family: "Anton",sans-serif;
+    font-size: 30px;
+    color: #143441;
+   margin: 0px;
+   background-color: #ebb11a;  
+   text-align: center;
+}
+article h2 {
+    font-family: "Thasadith", sans-serif;
+    color: #ebb11a;
+    margin: 0px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
+}
+article p {
+    font-family: "Quattrocento", serif;
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+}
+
+/*footer contact and map and copyright*/
+ footer {
+    text-align: center;
+    background-color: #c4b69a;
+    box-shadow: 0 0 30px #777;
+}
+
+
+footer p {
+    list-style-type:none;
+    font-family: "Quattrocento", serif;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+
+footer h2 {
+    font-family: "Thasadith", sans-serif;
+    color: #143441;
+    
+
+}
+#map {
+    margin-right: 30px;
+}
+footer .copywrite {
+    background-color: #ebb11a;
+    padding: 30px 20px 50px 20px;
+}
+
+footer img {
+    width: 50;
+    height: auto;
+    border-style: inset;
+    border-color: #777;
+    
+
+}
