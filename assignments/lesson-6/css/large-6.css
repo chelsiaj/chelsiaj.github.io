@@ -16,6 +16,7 @@ header h1{
     margin: 0px 0px 0px -130px;
     padding: 0px 0px 0px -130px;
     color: #143441;
+    background-color: none;
     align-content: center;
     
 
@@ -102,6 +103,7 @@ li a:hover, .dropdown:hover .dropbtn {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
     margin-top: 50px;
     margin-bottom: 50px;
    
@@ -185,9 +187,10 @@ article p {
     padding: 0px 30px 10px 20px;
     margin: 0px 30px 30px 30px;
 }
- h1 {
+  .headlines {
     font-family: "Anton",sans-serif;
     font-size: 30px;
+    padding: 20px;
     color: #143441;
    margin: 0px;
    background-color: #ebb11a;  
@@ -197,7 +200,7 @@ article h2 {
     font-family: "Thasadith", sans-serif;
     color: #ebb11a;
     margin: 0px 0px 0px 40px;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 article p {
     font-family: "Quattrocento", serif;
@@ -236,6 +239,7 @@ footer p {
 
 
 footer h2 {
+    padding-top: 20px;
     text-align: center;
     font-family: "Thasadith", sans-serif;
     color: #143441;
