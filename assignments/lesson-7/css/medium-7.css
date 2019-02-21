@@ -1,0 +1,282 @@
+@media (min-width:961px){
+    
+    body {
+    background-color: whitesmoke
+}
+/* header logo top*/
+header {
+    margin: -20px ;
+    background-color: #c4b69a;
+    box-shadow: 0 0 30px #777;
+    text-align: center;
+    padding: 40px 0px 30px 30px;
+}
+
+header img {
+    padding-left: 120px;
+}
+header h1{
+    font-family: "Anton",sans-serif;
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #143441;
+
+}
+header p{ font-family: "Thasadith",sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #143441;
+
+}
+img, .headings {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 10px;
+}
+/* top navigation menu */
+nav {
+	max-width: 67rem;
+	margin: 1rem auto;
+	background-color: #0e252e;
+}
+
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.navigation li { display: none; }
+.navigation li:first-child { display: block; }
+.navigation li a { display: block;
+	color: #ebb11a;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+    font-size: 1.25rem;
+    font-family: "Thasadith",sans-serif;
+}
+.navigation li a:hover {
+    background-color: #143441;
+    color: #ebb11a;
+    font-family: "Thasadith",sans-serif;
+}
+.responsive li { display: block; }
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem auto;
+	max-width: 66rem;
+}
+
+.container > section {
+	background: #ddd;
+	padding: .5rem;
+	border: 1px solid #bbb;
+	margin-right: 2px;
+	overflow: auto;
+	/* max-height: 100px; */
+}
+
+.container > section:nth-child(5) {
+	background: #bbeedd;
+}
+
+.container > section img {
+	width: 100%;
+	height: auto;
+}
+
+figure {margin: 0;}
+figcaption {font-size: .75rem;}
+
+/* medium and up views */
+@media (min-width: 45em) {
+	.navigation li:first-child { display: none;	}
+	.navigation li { display: block; flex: 1 1 auto; }
+	.navigation, .container { flex-direction: row; }
+}
+
+/* image gallery */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: px;
+    justify-content: center;
+  }
+  .grid-item {
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+  }
+
+
+
+
+
+
+
+/* weather update */
+
+.weathersummary img {
+   
+    margin-bottom: 30px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+ 
+.weathertitle {
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.4em;
+   
+}
+
+
+ #todaysforecast {
+        margin-top: 0px;
+        padding-top: 0px;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: "Thasadith", sans-serif;
+        
+    }
+    .yellowtext {
+        color: #ebb11a
+    }
+
+ section {
+   position: absolute;
+   top: 540px;
+   left: 60px;
+    background-color: rgba(13, 31, 33, 0.7);
+    text-align: left;
+    width: 220px;
+    margin-bottom: 0px;
+    
+}
+
+section p {
+    margin: 25px;
+    color: white;
+    font-size: 20px;
+}
+@media only screen and (max-width: 750px) {
+    .hidden {
+    display: none;
+
+      
+    }
+  }
+
+  @media only screen and (min-width: 750px) {
+    #smallmenu {
+    display: none;
+
+      
+    }
+  }
+
+
+
+
+
+
+/* article */
+article {
+    background-color: #143441
+}
+article img {
+    padding-top: 0px;
+    width: 90%;
+    height: auto;
+    box-shadow: 0 0 30px #071318;
+    margin: 25px 10px 20px 25px;
+    box-align:center;
+    
+    
+}
+
+article p {
+    color: white;
+    padding: 0px 30px 10px 20px;
+    margin: 0px 30px 30px 30px;
+}
+.headlines {
+    font-family: "Anton",sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    color: #143441;
+   margin: 0px;
+   background-color: #ebb11a;  
+   text-align: center;
+}
+article h2 {
+    
+    font-family: "Thasadith", sans-serif;
+    color: #ebb11a;
+    margin: 0px 0px 0px 40px;
+    padding: 10px 0px 0px 0px;
+}
+article p {
+    font-family: "Quattrocento", serif;
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+}
+
+/*footer contact and map and copyright*/
+ footer {
+    text-align: center;
+    background-color: #c4b69a;
+    box-shadow: 0 0 30px #777;
+    
+}
+
+
+footer p {
+    list-style-type:none;
+    font-family: "Quattrocento", serif;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+
+footer h2 {
+    padding-top: 20px;
+    font-family: "Thasadith", sans-serif;
+    color: #143441;
+    
+
+}
+#map {
+    margin-right: 30px;
+}
+footer .copywrite {
+    background-color: #ebb11a;
+    padding: 30px 20px 50px 20px;
+}
+
+footer img {
+    width: 50;
+    height: auto;
+    border-style: inset;
+    border-color: #777;
+    
+
+}
+}
