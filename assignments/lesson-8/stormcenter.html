@@ -51,8 +51,8 @@
                 <td><input type="email" name="email" placeholder="johndoe@gmail.com"></td>
             </tr>
             <tr>
-                <td>Phone Number</td>
-                <td><input type="tel" name="phone_number" required></td>
+                <td><label>Phone Number</label></td>
+                <td><input type="tel" id="phone_number" required></td>
             </tr>
             <tr>
                 <td>Zip Code</td>
@@ -64,16 +64,16 @@
             </tr>
             <tr>
                 <td>Storm Type</td>
-                <form action="/action_page.php">
-                <td><input list="stormkind" id="stormtype" name="stormtype"/></td>
-                <datalist id="stormkind">
-                <option value="Flash Flood">Flash Flood</option>
-                <option value="Hail">Hail</option>
-                <option value="Hurricane">Hurricane</option>
-                <option value="Thurnderstorm">Thunderstorm</option>
-                <option value="Tornado">Tornado</option>
-                </datalist>
-                </form>
+                <td><form action="/action_page.php" method="get">
+                    <datalist id="stormkind">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thurnderstorm">
+                    <option value="Tornado">
+                    </datalist>
+                    <input list="stormkind" id="stormkind" name="stormkind">
+                    </form></td>
             </tr>
             <tr>
                 <td><label for="rating">Storm Severity<br> Rating 1 to 10</label></td>
