@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <link href="https://fonts.googleapis.com/css?family=Anton|Quattrocento|Thasadith" rel="stylesheet">
+            <meta charset="UTF-8">
+            <title>preston weather city page</title>
+            <meta name="description" content="preston town weather page.">
+            <link rel="stylesheet" href="css/normalize.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="css/small-7.css">
+            <link rel="stylesheet" href="css/large-7.css">
+            <script src="script/hamburger.js"></script>
+            
+   </head>
+   <body>
+        <header>
+            <div class="flex-container">
+            <div class="flex-item"><img src="images/cloudlogo.png" alt="cloudlogo"/></div>
+        
+            <div class="flex-item"><h1>THE ELEMENTS</h1><p>preparing for adventure</p></div>
+            <div class="flex-item"></div>
+             </div>      
+        </header>
+           <nav>
+                <ul class="navigation" >
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="home-4.html">Home</a></li>
+                    <li><a href="preston-5.html">Preston</a></li>
+                    <li><a href="sodasprings-4.html">Soda Springs</a></li>
+                    <li><a href="fishhaven-4.html"> Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery-7.html">Gallery</a></li>
+
+                </ul>
+            </nav> 
+        <div class="weathersummary">
+            <h1 class="headlines">PRESTON</h1>
+
+        
+            
+            _<img srcset="images/franklinoriginal_320w.jpg 320w,
+                        images/franklinoriginal_800w.jpg 800w"
+                sizes="(max-width: 750px) 450px,
+                        (max-width: 2500px) 800px"
+                src="images/franklinoriginal_800w.jpg" alt="sunshineday"/>
+                
+                </div>
+
+            <section>              
+                <p class="weathertitle" class="headlines">Weather Summary</p>
+                <p id="todaysforecast">
+                    Currently:  <span class="yellowtext">Sunny</span><br>
+                    High:  <span class="yellowtext" id="Temperature">53</span><span class="yellowtext">&#8457;</span><br> 
+                    Wind Chill: <span class="yellowtext" id="wind_chill">w</span> <span class="yellowtext">&#8457;</span><br>
+                    Humidity:  <span class="yellowtext">5%</span><br>
+                    Wind Speed: <span class="yellowtext" id="WindSpeed">10</span> <span class="yellowtext">mph</span><br>
+                </p>    
+                        
+             </section>  
+        
+        
+        <article>
+            <img src="images/snowandbus.jpg" alt="snoweybusride"/>
+            <h1 class="headlines">ARTICLE TITLE</h1>
+            <h2>by author</h2>   
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis porttitor 
+                libero, eget fermentum ligula dictum nec. Nullam at est quis nisl pharetra congue. Cras id 
+                finibus risus. Aliquam ut hendrerit metus. Mauris auctor orci ac sollicitudin tempor. Lorem
+                 ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit eros purus, vel consectetur 
+                 lectus auctor at. Sed eget metus imperdiet, sagittis ipsum at, gravida libero.
+
+                Pellentesque at tortor vel lacus ultricies condimentum at vitae massa. Quisque pharetra nisl ac 
+                facilisis rutrum. In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent 
+                per conubia nostra, per inceptos himenaeos. Cras tincidunt ullamcorper mi vitae porttitor. Fusce nec
+                 cursus nibh. Nam varius nulla facilisis efficitur scelerisque. Proin ullamcorper semper lectus, eget 
+                 pretium magna. Sed imperdiet, eros ac hendrerit facilisis, nulla dui consectetur ex, in vehicula lorem quam ut arcu.    
+            </p>  
+        </article>
+     
+        <footer>
+            <h2 id="map">Map</h2>
+        
+            <img src="images/prestonmap.jpg" alt="mapofpreston"/>
+            <h2>Contact Information</h2>
+    
+            <div id="contact-info">
+            Phone numner: 555.555.555<br>
+            Phone numner: 555.555.555<br>
+            Email: someones email<br>
+            <br>
+            <br>  
+            Address: The Elements<br>
+             555 Address way<br>
+            Preston,ID 55555<br>
+            
+            </div>
+        
+            <p class="copywrite">
+            Chelsi Jenson |  Copyright &copy; | <span id="dayoftheweek"></span>, <span  id="current-dt"></span> | The Elements   | Preston Idaho 
+            </p>
+        </footer>
+        <script src="script/currentdate.js"></script>
+        <script src="script/windchill-7.js"></script>
+    </body>
+   
+</html>

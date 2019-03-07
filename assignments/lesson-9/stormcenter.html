@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <link href="https://fonts.googleapis.com/css?family=Anton|Quattrocento|Thasadith" rel="stylesheet">
+            <meta charset="UTF-8">
+            <title>preston weather city page</title>
+            <meta name="description" content="preston town weather page.">
+            <link rel="stylesheet" href="css/normalize.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="css/small-7.css">
+            <link rel="stylesheet" href="css/large-7.css">
+            <link rel="stylesheet" href="css/form-8.css">
+            <script src="script/hamburger.js"></script>
+            <script src="script/stormrating.js"></script>
+   </head>
+   <body>
+        <header>
+            <div class="flex-container">
+            <div class="flex-item"><img src="images/cloudlogo.png" alt="cloudlogo"/></div>
+        
+            <div class="flex-item"><h1>THE ELEMENTS</h1><p>preparing for adventure</p></div>
+            <div class="flex-item"></div>
+             </div>      
+        </header>
+           <nav>
+                <ul class="navigation" >
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="home-4.html">Home</a></li>
+                    <li><a href="preston-5.html">Preston</a></li>
+                    <li><a href="sodasprings-4.html">Soda Springs</a></li>
+                    <li><a href="fishhaven-4.html"> Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery-7.html">Gallery</a></li>
+
+                </ul>
+            </nav> 
+       
+            <h1 class="headlines">Storm Center</h1>
+
+
+
+
+<table>
+        <form action="">
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" name="full_name" pattern="[A-Za-z0-9]+{5,}" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" placeholder="johndoe@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label>Phone Number</label></td>
+                <td><input type="tel" id="phone_number" required></td>
+            </tr>
+            <tr>
+                <td>Zip Code</td>
+                <td><input type="num" name="zipcode" required></td>
+            </tr>
+            <tr>
+                <td>Storm Date</td>
+                <td><input type="date" name="stormdate"></td>
+            </tr>
+            <tr>
+                <td>Storm Type</td>
+                <td><form action="/action_page.php" method="get">
+                    <datalist id="stormkind">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thurnderstorm">
+                    <option value="Tornado">
+                    </datalist>
+                    <input list="stormkind" id="stormkind" name="stormkind">
+                    </form></td>
+            </tr>
+            <tr>
+                <td><label for="rating">Storm Severity<br> Rating 1 to 10</label></td>
+                <td><input type="range" id="rating" value="5" min="1" max="10" step="1" 
+                oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span></td>
+            </tr>
+
+        <tr>
+            <td colspan="2" class="middle"><select>
+            <option selected="true" disabled="disabled">Select Region...</option>
+            <option value="Preston">Preston</option>
+            <option value="Soda Springs">Soda Springs</option>
+            <option value="Fish Haven">Fish Haven</option>
+        </select></td>
+        </tr>
+        <tr>
+        <td>User In-Danger <br> Level</td>
+        <td><input type="radio" name="level" value="Yes" checked> Yes
+        <input type="radio" name="level" value="No"> No
+        <input type="radio" name="level" value="Maybe">Maybe </td>
+        </tr>
+
+        <tr><form action="/action_page.php">
+            <td colspan="2" class="middle">Additional Information/Comments
+            <br>
+           <textarea name="message" rows="4" cols="40"></textarea></td>
+            </form>
+            <br>
+            <tr>
+            <td colspan="2" class="middle"><a href="thanks.html"><input type="button" name="button" value="submit"></a></td>
+            </tr>
+          </form>
+        </tr>
+         
+        </table>
+          
+
+ 
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+
+     
+        <footer>
+            <h2 id="map">Map</h2>
+        
+            <img src="images/prestonmap.jpg" alt="mapofpreston"/>
+            <h2>Contact Information</h2>
+    
+            <div id="contact-info">
+            Phone numner: 555.555.555<br>
+            Phone numner: 555.555.555<br>
+            Email: someones email<br>
+            <br>
+            <br>  
+            Address: The Elements<br>
+             555 Address way<br>
+            Preston,ID 55555<br>
+            
+            </div>
+        
+            <p class="copywrite">
+            Chelsi Jenson |  Copyright &copy; | <span id="dayoftheweek"></span>, <span  id="current-dt"></span> | The Elements   | Preston Idaho 
+            </p>
+        </footer>
+        <script src="script/currentdate.js"></script>
+        <script src="script/windchill-7.js"></script>
+    </body>
+   
+</html>
