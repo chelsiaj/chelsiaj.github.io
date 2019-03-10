@@ -9,8 +9,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="css/small-7.css">
             <link rel="stylesheet" href="css/large-7.css">
-            <script src="scripts/hamburger.js"></script>
-            <script src="scripts/jsondata.js"></script>
+            <script src="script/hamburger.js"></script>
+            <script src="jsondata.js"></script>
             
             
    </head>
@@ -26,8 +26,8 @@
            <nav>
                 <ul class="navigation" >
                     <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                    <li><a href="weatherhomepage.html">Home</a></li>
-                    <li><a href="preston-7.html">Preston</a></li>
+                    <li><a href="home-4.html">Home</a></li>
+                    <li><a href="preston-5.html">Preston</a></li>
                     <li><a href="sodasprings-4.html">Soda Springs</a></li>
                     <li><a href="fishhaven-4.html"> Fish Haven</a></li>
                     <li><a href="stormcenter.html">Storm Center</a></li>
@@ -36,28 +36,27 @@
                 </ul>
             </nav> 
 
-        <main>
-            <div class="row">
-                <div class="column">
-                    <h2>PRESTON</h2>
-                    <img src="images/preston487px.jpg" alt="picture of preston">
-                    <div id="Preston"></div>
+            <main>
+                <div class="grid-container2">
+                    <div class="grid-item2">PRESTON</div>
+                    <div class="grid-item2">FISH HAVEN</div>
+                    <div class="grid-item2">SODA SPRINGS</div>  
+                    <div class="grid-item3"><img src="images/preston487px.jpg" alt="picture of preston"></div>
+                    <div class="grid-item3"><img src="images/fishhaven487px.jpg" alt="picture of fish haven"></div>
+                    <div class="grid-item3"><img src="images/sodasprings487px.jpg" alt="picture of soda springs"></div>  
+                    <div class="grid-item4">7</div>
+                    <div class="grid-item5">8</div>
+                    <div class="grid-item6">9</div>  
                 </div>
-                <div class="column">
-                    <h2>FISH HAVEN</h2>
-                    <img src="images/fishhaven487px.jpg" alt="picture of fish haven">
-                    <div id="Fish Haven"></div>
-                </div>
-                <div class="column">
-                    <h2>SODA SPRINGS</h2>
-                    <img src="images/sodasprings487px.jpg" alt="picture of soda springs">
-                    <div id="Soda Springs"></div>
-                </div>
-            </div>
-            
 
-        </main>
-
+            </main>
+       
+          
+        <script>
+            var grid = document.querySelector('grid-item4');
+            var grid = document.querySelector('grid-item5');
+            var grid = document.querySelector('grid-item6');
+        </script>
         
         <article>
             <img src="images/snowandbus.jpg" alt="snoweybusride"/>
@@ -84,9 +83,9 @@
             Chelsi Jenson |  Copyright &copy; | <span id="dayoftheweek"></span>, <span  id="current-dt"></span> | The Elements   | Preston Idaho 
             </p>
         </footer>
-        <script src="scripts/currentdate.js"></script>
-        <script src="scripts/windchill-7.js"></script>
-
+        <script src="script/currentdate.js"></script>
+        <script src="script/windchill-7.js"></script>
+        <script src="jsondata.js"></script>
     </body>
    
 </html>
