@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <link href="https://fonts.googleapis.com/css?family=Anton|Quattrocento|Thasadith" rel="stylesheet">
+            <meta charset="UTF-8">
+            <title>preston weather city page</title>
+            <meta name="description" content="preston town weather page.">
+            <link rel="stylesheet" href="css/normalize.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="css/small-7.css">
+            <link rel="stylesheet" href="css/large-7.css">
+            <script src="script10/hamburger.js"></script>
+            <script src="script10/prestonweather.js"></script>
+            
+   </head>
+   <body>
+        <header>
+            <div class="flex-container">
+            <div class="flex-item"><img src="images/cloudlogo.png" alt="cloudlogo"/></div>
+        
+            <div class="flex-item"><h1>THE ELEMENTS</h1><p>preparing for adventure</p></div>
+            <div class="flex-item"></div>
+             </div>      
+        </header>
+           <nav>
+                <ul class="navigation" >
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="weatherhomepage.html">Home</a></li>
+                    <li><a href="preston-10.html">Preston</a></li>
+                    <li><a href="sodasprings.html">Soda Springs</a></li>
+                    <li><a href="fishhaven.html"> Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery-7.html">Gallery</a></li>
+
+                </ul>
+            </nav> 
+        <div class="weathersummary">
+            <h1 class="headlines">PRESTON</h1>
+
+        
+            
+            <img srcset="images/franklinoriginal_320w.jpg 320w,
+                        images/franklinoriginal_800w.jpg 800w"
+                sizes="(max-width: 750px) 450px,
+                        (max-width: 2500px) 800px"
+                src="images/franklinoriginal_800w.jpg" alt="sunshineday"/>
+                
+                </div>
+
+            <section>              
+                <p class="weathertitle" class="headlines">Weather Summary</p>
+                <p id="todaysforecast">
+                    Currently:  <span class="yellowtext" id="currently">Sunny</span><br>
+                    High:  <span class="yellowtext" id="high">53</span><span class="yellowtext">&#8457;</span><br> 
+                    Wind Chill: <span class="yellowtext" id="wind_chill">w</span> <span class="yellowtext">&#8457;</span><br>
+                    Humidity:  <span class="yellowtext" id="moisture">5%</span><br>
+                    Wind Speed: <span class="yellowtext" id="speedy">10</span> <span class="yellowtext">mph</span><br>
+                </p>    
+                        
+             </section>  
+     
+<div class="clearfix">
+        <div class="days">
+       
+        </div>
+        <div class="days">
+       
+        </div>
+         <div class="days">
+        
+        </div>
+        <div class="days">
+         
+        </div>
+         <div class="days">
+          
+        </div>
+      </div>
+        
+        
+        <article>
+            <img src="images/snowandbus.jpg" alt="snoweybusride"/>
+            <h1 class="headlines">Warnings due to snowfall</h1>
+            <h2>Marie Rodriguez</h2>   
+            <p>
+                In preston, the Department of Transportation warned that visibility was less than a half-mile in many locations due to snow and wind.
+                 Some spots in preston could see as much as 8-12 inches of snow, according to the National Weather Service.
+
+                    And in preston, where snow was starting to pile up, authorities warned drivers to give plows extra room.
+
+                    The governors of New York and Pennsylvania declared emergencies for their states, which were squarely in the path of the storm. 
+                    New York, Gov. Andrew Cuomo issued a travel ban on tractor-trailers and buses on the Thruway and other interstate highways in the state beginning Saturday afternoon.
+                    <br>
+                    <br>
+                    The weather service in Albany, New York, said snow could fall at a rate of 1 to 3 inches an hour, 
+                    creating “difficult to impossible travel conditions” in areas.
+
+                    "Our plows travel at a maximum speed of 35 mph," said Jordan Guerrein, spokesman for the state Department of Transportation. 
+                    "People need to give them some room to work, they're big and heavy and often spreading salt. As we always say 'don't crowd the plow.'"
+            </p>  
+        </article>
+        <div class="events">
+                <h1 class="headlines">Events that may be effected by weather</h1>
+                <P id="Preston"></P>
+               
+            
+        </div>
+     
+        <footer>
+            <h2 id="map">Map</h2>
+        
+            <img src="images/prestonmap.jpg" alt="mapofpreston"/>
+            <h2>Contact Information</h2>
+    
+            <div id="contact-info">
+            Phone numner: 555.555.555<br>
+            Phone numner: 555.555.555<br>
+            Email: someones email<br>
+            <br>
+            <br>  
+            Address: The Elements<br>
+             555 Address way<br>
+            Preston,ID 55555<br>
+            
+            </div>
+        
+            <p class="copywrite">
+            Chelsi Jenson |  Copyright &copy; | <span id="dayoftheweek"></span>, <span  id="current-dt"></span> | The Elements   | Preston Idaho 
+            </p>
+        </footer>
+        <script src="script10/windchill-7.js"></script>
+        <script src="script10/currentdate.js"></script>
+        <script src="script10/prestonevents.js"></script>
+    </body>
+   
+</html>
