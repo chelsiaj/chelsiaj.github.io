@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #282b40;
+    background-color: #f1f2ec;
+  }
+
+  h1 { font-family: 'Prata', serif;
+      text-align: center;
+    
+
+  }
+
+  h2 { font-family: 'Prata', serif;
+
+  }
+
+  h3 { font-family: 'Prata', serif;
+    font-size: 22px;
+    color: #282b40;
+   
+
+  }
+
+  h4 { font-family: 'Roboto', sans-serif;
+
+  }
+
+  h5 { font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+   font-weight: 300;
+
+  }
+
+  h6 { font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #282b40;
+  }
+
+  a {
+      font-family: 'Roboto', sans-serif; 
+
+  }
+
+  
+  .topnav {
+    overflow: hidden;
+    margin-left: 30px;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #282b40;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+  
+    color: #282b40;
+  }
+  
+  .active {
+    background-color: #3c989b;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+   
+#logo {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+main {
+  margin-top: 50px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+ 
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    margin-left: 200px;
+    font-family: 'Prata', serif;
+  }
+
+  ::placeholder {
+   font-family: 'Roboto', sans-serif;
+   color: #282b40;
+
+  }
+  
+  input[type=submit] {
+    background-color: #fc3d51;
+    margin-right: 60px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3c989b;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    background-color: #ccc;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+    
+  }
+  
+  .col-75 {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+  }
+
+  label {
+    margin-left: 20px;
+  }
+
+ 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      margin-right: 2px;
+    }
+
+    }
+ 
+      
+      
+    
+
+
+footer {
+    margin-top: 200px;
+    background-color: #3c989b; 
+    text-align: center;
+    color: #282b40;
+    padding: 5px 10px 10px 10px;
+}

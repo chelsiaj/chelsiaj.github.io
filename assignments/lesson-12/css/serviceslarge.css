@@ -1,0 +1,327 @@
+Z/* color: #fc3d51;
+    color: #282b40;
+    color: #cccccc;
+    color: #f1f2ec;
+    color: #3c989b;
+
+ */
+
+ 
+  
+ body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #282b40;
+    background-color: #f1f2ec;
+    height: 1200px;
+  }
+
+  #wholecontainer {
+    height: 1400px;
+  }
+  h1 { font-family: 'Prata', serif;
+
+  }
+
+  h2 { font-family: 'Prata', serif;
+    color: #3c989b;
+
+  }
+
+  h3 { font-family: 'Prata', serif;
+    font-size: 22px;
+    color: #282b40;
+   
+
+  }
+
+  h4 { font-family: 'Roboto', sans-serif;
+
+  }
+
+  h5 { font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+   font-weight: 300;
+
+  }
+
+  h6 { font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #282b40;
+  }
+
+  a {
+      font-family: 'Roboto', sans-serif; 
+
+  }
+
+  li {
+    font-family: 'Roboto', sans-serif;
+    color: #282b40;
+    margin: 5px;
+    
+  }
+
+
+  
+  .topnav {
+    overflow: hidden;
+    padding-left: 20px;
+    
+  }
+  
+  .topnav a {
+
+    display: inline-block;
+    margin: auto; 
+    color: #282b40;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+  
+    color: #cccccc;
+    background-color: #3c989b
+  }
+  
+  .topnav .active {
+    background-color: #3c989b;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  #logo {
+    position: relative;
+    display: block;
+    margin: auto;
+   
+    
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+
+#slide1 {display:block}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  background-color: #286c6e7c;
+  font-size: 15px;
+  padding: 12px 12px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+main {
+  margin-top: 50px;
+  height: 550px;
+}
+
+/* lists and articles */
+
+
+#ammenities {
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 50px;
+
+
+}
+article ul {
+  width: 40%
+}
+
+figure {
+ 
+  display: block;
+  position: relative;
+  bottom: 560px;
+  margin-top: -50px;
+  margin-right: 100px;
+  padding: 20px;
+}
+
+#picturelinks {
+  margin-top: -40px;
+  float: right;
+  margin-bottom: -200px;
+
+}
+
+ a {
+  
+  color: #3c989b;
+  font-family: 'Prata', serif;
+  font-size: 18px;
+  padding: 5px;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+  #ammenities {
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    
+  }
+  article ul {
+    width: 90%
+  }
+
+  figure {
+    position: relative;
+    top: 90px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  #picturelinks {
+
+    float: none;
+  
+  }
+
+
+
+}
+
+
+  footer {
+    margin-top: 700px;
+     background-color: #3c989b; 
+     text-align: center;
+     color: #282b40;
+     padding: 5px 10px 10px 10px;
+     
+ }

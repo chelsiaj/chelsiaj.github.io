@@ -1,0 +1,219 @@
+/* color: #fc3d51;
+    color: #282b40;
+    color: #cccccc;
+    color: #f1f2ec;
+    color: #3c989b;
+
+ */
+
+ 
+  
+ body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #282b40;
+    background-color: #f1f2ec;
+  }
+
+  h1 { font-family: 'Prata', serif;
+
+  }
+
+  h2 { font-family: 'Prata', serif;
+
+  }
+
+  h3 { font-family: 'Prata', serif;
+    font-size: 22px;
+    color: #282b40;
+   
+
+  }
+
+  h4 { font-family: 'Roboto', sans-serif;
+
+  }
+
+  h5 { font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+   font-weight: 300;
+
+  }
+
+  h6 { font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #282b40;
+  }
+
+  a {
+      font-family: 'Roboto', sans-serif; 
+
+  }
+
+
+  
+  .hero-image {
+    background-image: url('../images/oaklandtemple.png');
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #282b40;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+  
+    color: #cccccc;
+    background-color: #3c989b
+  }
+  
+  .active {
+    background-color: #3c989b;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+   
+#logo {
+    position: relative;
+    display: block;
+    margin: auto;
+   
+    
+}
+
+
+
+p { 
+    display: block;
+    width: 300px;
+    padding: 20px;
+    background-color: #cccccc;
+    margin-top: 20px;
+    margin-right: 50px;
+   ;
+}
+main img {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    width: 100%;
+    max-width: 600px;
+}
+.headline {
+    margin-bottom: -35px;
+}
+@media screen and (min-width: 500px) {
+
+    main {
+        margin: 100px 50px 50px 50px;
+    }
+    
+    p { 
+        width: 100%;
+        padding: 20px;
+        background-color: #cccccc;
+        display: block;
+        margin-top: 40px;
+        margin-left: -20px;
+        height: 335px;
+    }
+    main img {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    
+    .headline {
+        margin-bottom: -35px;
+    }
+
+@media screen and (min-width: 1250px) {
+
+    main {
+        margin: 100px 50px 50px 50px;
+    }
+    
+    p { 
+        min-width: 500px;
+        max-width: 500px;
+        float: right;
+        padding: 20px;
+        background-color: #cccccc;
+        display: block;
+        margin-top: 40px;
+        margin-left: -20px;
+        height: 335px;
+    }
+    main img {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .headline {
+        margin-bottom: -35px;
+    }
+
+}
+
+
+
+
+
+ footer {
+    margin-top: 500px;
+     background-color: #3c989b; 
+     text-align: center;
+     color: #282b40;
+     padding: 5px 10px 10px 10px;
+ }
+
+ 
+
+
+
+
