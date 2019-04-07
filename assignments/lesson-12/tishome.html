@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/largehome.css">
         <script src="scripts/navigationbar.js"></script>
+        <script src="scripts/homepagetempleinfo.js"></script>
       
     </head>
     <header>
@@ -17,26 +18,28 @@
     <body>
             <img id="logo" src="images/tislogo.png">
     <div class="hero-image">
-            <div class="hero-text">
-               
-                <div class="topnav" id="myTopnav">
-                        <a href="tishome.html" class="active">Home</a>
-                        <a href="registration.html">Reservations</a>
-                        <a href="temples.html">Temples</a>
-                        <a href="services.html">Services</a>
-                        <a href="contactus.html">Contact</a>
-                    
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars">&#9776;</i>
-                    </a>
-                </div>
-                <div class="call">
-                    <h3>Find your perfect room today.</h3>
-                    <a href="registration.html"><button class="btn">Reservations</button></a>
-                </div>
-
-
+        <div class="hero-text">
+            
+            <div class="topnav" id="myTopnav">
+                    <a href="tishome.html" class="active">Home</a>
+                    <a href="registration.html">Reservations</a>
+                    <a href="temples.html">Temples</a>
+                    <a href="services.html">Services</a>
+                    <a href="contactus.html">Contact</a>
+                
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars">&#9776;</i>
+                </a>
             </div>
+            <div class="call">
+                    
+                <h3>Find your perfect room today.</h3>
+                <a href="registration.html"><button class="btn">Reservations</button></a>
+            </div>
+
+
+        </div>
+        <div id="currentTempoakland"></div>
 
             
     </div>
@@ -51,6 +54,8 @@
                        <p style="color:#282b40;">&#9733;&#9733;&#9733;&#9733;&#9733;  The temple inn was 
                     perfect for our wedding guests.-Sandra Smith</p>
                       <img src="images/dctemple.jpg" alt="temple">
+                      <p id="currentTempdc"></p>
+                      
                      
                     </div>
                     <div class="column">
@@ -58,6 +63,7 @@
                             <p style="color:#282b40;">&#9733;&#9733;&#9733;&#9733;&#9733;  We never got sick of their breakfast buffet and we 
                             stayed there for a year and a half on our mission-Thomas Clark</p>
                             <img src="images/portlandtemple.jpg" alt="temple">
+                            <p id="currentTempportland"></p>
 
                     </div>  
                     <div class="column">
@@ -65,6 +71,7 @@
                             <p style="color:#282b40;">&#9733;&#9733;&#9733;&#9733;&#9733;  It definitley added to our spiritual experience by 
                         staying there.-courtney richards</p>
                             <img src="images/laietemple.jpg" alt="temple">
+                            <p id="currentTemplaie"></p>
                  
                     </div>
                   </div>
