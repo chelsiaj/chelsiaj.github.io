@@ -49,7 +49,7 @@
 
   p {
     font-family: 'Roboto', sans-serif;
-    color: #282b40;
+   
   }
 
   a {
@@ -57,12 +57,43 @@
 
   }
 
+  .oaklandinformation {
+    color: #f1f2ec;
+    position: relative;
+    top: 500px;
+    left: 30px;
+    width: 60%
+  }
 
+  .oaklandinformationtitle {
+
+    color: #282b40;
+   
+    position: relative;
+    top: 500px;
+    left: 30px;
+    width: 80%;
+  
+
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .oaklandinformationtitle {
+
+      color: #282b40;
+      position: relative;
+      top: 500px;
+      left: 30px;
+      width: 80%
+  
+    }
+  }
   
   .hero-image {
-    background-image: url('../images/oaklandtemple.png');
+    background-image: url('../images/oaklandtemple.jpg');
     background-color: #cccccc;
-    height: 500px;
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,6 +114,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Prata', serif;
   }
   
   .topnav a:hover {
@@ -119,12 +151,24 @@
       display: block;
       text-align: left;
     }
+   
+  }
+  @media screen and (max-width: 900px) {
+  div .call {
+    position: relative;
+    top: 200px;
+ 
+
+}
   }
    
 #logo {
     position: relative;
     display: block;
     margin: auto;
+    padding: 10px;
+   
+    
    
     
 }
@@ -160,16 +204,22 @@
     display: block;
     margin: auto;
 
-  ]
+  }
+
    
    
     
-  }
+  
   
   .column img {
     margin-top: 8px;
     
     vertical-align: middle;
+
+    -webkit-box-shadow: 0 px 6px -6px #777;
+    -moz-box-shadow: 0 5px 6px -6px #777;
+    box-shadow: 0 5px 6px -6px #777;
+    border-radius: 3px;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -186,16 +236,26 @@
     .column {
       -ms-flex: 100%;
       flex: 100%;
-      max-width: 100%;
-    }
-  }
+      max-width: 100%;}
+
+  
+}
      div .call {
 
         position: relative;
         top: 200px;
-        left: 100px;
-     
+        left: 150px;
+    
+  }
 
+  @media screen and (max-width: 900px) {
+    div .call {
+
+      position: relative;
+      top: 300px;
+      left: 80px;
+  
+}
   }
 
   .btn{
@@ -218,6 +278,11 @@ left: 70px;
 
  .headline h5 {
      margin-top: -12px;
+ }
+
+ .names {
+   font-size: 14px;
+   font-style: italic;
  }
 
  footer {

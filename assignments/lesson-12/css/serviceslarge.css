@@ -146,7 +146,19 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  -webkit-box-shadow: 0 5px 6px -6px #777;
+  -moz-box-shadow: 0 5px 6px -6px #777;
+  box-shadow: 0 5px 6px -6px #777;
+  border-radius: 3px;
 }
+
+main img {
+  -webkit-box-shadow: 0 5px 6px -6px #777;
+  -moz-box-shadow: 0 5px 6px -6px #777;
+  box-shadow: 0 5px 6px -6px #777;
+  border-radius: 3px;
+}
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -241,8 +253,11 @@ main {
 }
 
 /* lists and articles */
-
-
+@media only screen and (max-width: 900px) {
+#ammenities {
+  padding-top: 0px;
+}
+}
 #ammenities {
   display: block;
   margin: auto;
@@ -250,11 +265,32 @@ main {
   padding-left: 50px;
 
 
+
+}
+
+@media only screen and (max-width: 800px) {
+  #ammenities {
+    position: relative;
+    bottom: 150px;
+  }
+  }
+
+@media only screen and (max-width: 700px) {
+  #ammenities {
+    position: relative;
+    bottom: 300px;
+  }
+  
 }
 article ul {
   width: 40%
 }
-
+article img {
+  -webkit-box-shadow: 0 5px 6px -6px #777;
+  -moz-box-shadow: 0 5px 6px -6px #777;
+  box-shadow: 0 5px 6px -6px #777;
+  border-radius: 3px;
+}
 figure {
  
   display: block;
@@ -263,7 +299,10 @@ figure {
   margin-top: -50px;
   margin-right: 100px;
   padding: 20px;
+  
 }
+
+
 
 #picturelinks {
   margin-top: -40px;
@@ -271,6 +310,8 @@ figure {
   margin-bottom: -200px;
 
 }
+
+
 
  a {
   
